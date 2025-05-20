@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   images: {
     unoptimized: true,
   },
-  basePath: '/undangan-ai',
+  experimental: {
+    optimizeFonts: true,
+  },
 }
 
 module.exports = nextConfig 

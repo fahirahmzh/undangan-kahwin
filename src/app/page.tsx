@@ -1,6 +1,7 @@
 'use client';
 
 import CountdownTimer from '@/components/CountdownTimer';
+import '@/styles/globals.css';
 
 export default function Home() {
   // Set your wedding date here
